@@ -1,9 +1,13 @@
-import cartWidget from "./cartWidget"
+import CartWidget from "./cartWidget";
+import ListContainer from "./Container/listContainer";
 
-const navBar = () => {
+const NavBar = () => {
     return (
-        <cartWidget />
+        <navBar>
+        <CartWidget />
+        <ListContainer />
+        </navBar>
     )
 }
 
-export default navBar;
+export default NavBar;

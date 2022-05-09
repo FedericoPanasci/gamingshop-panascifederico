@@ -1,3 +1,9 @@
-const App = () => <div>algo</div> 
+import NavBar from "./Component/navBar";
+
+const App = () => {
+  return (
+    <NavBar/>
+  )
+}
 
 export default App;

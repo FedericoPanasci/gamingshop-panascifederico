@@ -1,6 +1,6 @@
-const cartWidget = () => {
-    return <>
-    <img src="public/logo192.png" />
-    </>
+const CartWidget = () => {
+    return (
+    <p>aca va el carrito </p>
+    )
 }
-export default cartWidget;
+export default CartWidget;
