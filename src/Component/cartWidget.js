@@ -1,6 +1,8 @@
+import imgcart from "../Assets/shopping-cart.png";
+
 const CartWidget = () => {
     return (
-    <p>aca va el carrito </p>
+    <img src={imgcart} alt="imagen de carrito"/>
     )
 }
 export default CartWidget;

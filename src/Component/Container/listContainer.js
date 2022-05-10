@@ -1,6 +1,6 @@
 const ListContainer = () => {
     return (
-        <><li> item 1 </li><li> item 2 </li><li> item 3 </li></>
+        <><li> Consolas </li><li> Juegos </li><li> Accesorios </li></>
     )
 }
 export default ListContainer;
