@@ -1,14 +1,15 @@
 import CartWidget from "./cartWidget";
 import ListContainer from "./Container/listContainer";
+import '../Styles/styles.css';
 
 const NavBar = () => {
-    const navStyle= {color:"red", backgroundColor:"yellow", width:100};
-
     return (
-        <div style={{navStyle}}>
+        <>
+        <div className="nav navBar">
         <CartWidget />
         <ListContainer />
         </div>
+        </>
     )
 }
 

@@ -1,0 +1,18 @@
+.nav{
+    background-color:rgb(29, 126, 211);
+    width: 100%;
+}
+
+.logo{
+    width: 30px;   
+}
+
+.logo:hover{
+    background-color: red;
+}
+
+li{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+}
