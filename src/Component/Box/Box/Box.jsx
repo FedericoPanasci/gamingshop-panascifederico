@@ -11,11 +11,7 @@ var hour = new Date();
 
 const incrementar = () => {
   setCount(count+1);
-
-  if(count !== 0) {
-    nuevaHora();
-  }
-
+  nuevaHora();
   nuevoArray();
 };
 
@@ -25,7 +21,7 @@ const nuevoArray = () => {
     newMin: hour.getMinutes(),
     newSec: hour.getSeconds()
   }
-  setArray([newArray])
+  setArray(newArray)
 }
 
 const nuevaHora = () => {
