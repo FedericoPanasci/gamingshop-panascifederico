@@ -1,8 +1,8 @@
 import { useState } from "react";
 import '../ItemCount/styles/styles.css';
 
-const ItemCount = () => {
-  const stock = 10;
+const ItemCount = ({stock}) => {
+
   const [count, changeCount] = useState(0);
 
   const descontar = () => {
