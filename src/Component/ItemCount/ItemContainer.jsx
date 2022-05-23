@@ -3,6 +3,15 @@ import ItemList from "./ItemList";
 
 const ItemContainer = () => {
     const [prods, setProds] = useState([]);
+    // var datos = '';
+    // fetch('https://api.mercadolibre.com/sites/MLA/search?q=playstation4&id=MLA1100250699').then(res => res.json())
+    // .then(data => {
+    //     datos = data.results;
+    //     console.log(data.results);
+    //     console.log(datos.results);
+
+    //     datos.map(p => console.log(p.id))
+    // })
 
     useEffect(() => {
         (async () => {
@@ -25,7 +34,8 @@ const ItemContainer = () => {
 
     return (
         <>
-          <ItemList items={prods} />
+        {/* <ItemList items={datos} /> */}
+        <ItemList items={prods} />
         </>
       )
 }

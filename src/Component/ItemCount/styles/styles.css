@@ -10,3 +10,7 @@
     flex-direction: row;
     margin: 0 auto;
 }
+
+.border{
+    border:1px solid black;
+}
