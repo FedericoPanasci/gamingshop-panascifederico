@@ -1,6 +1,5 @@
 import CartWidget from "./cartWidget";
 import ListContainer from "./Container/listContainer";
-// import RoutesConfig from "../app/RoutesConfig.js";
 import '../Styles/styles.css';
 
 const NavBar = () => {
@@ -9,7 +8,6 @@ const NavBar = () => {
         <div className="nav navBar">
         <CartWidget />
         <ListContainer />
-        {/* <RoutesConfig/> */}
         </div>
         </>
     )

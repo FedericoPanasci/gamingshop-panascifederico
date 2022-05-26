@@ -2,18 +2,83 @@
     "prods":[
     {
         "id": 1,
-        "name": "playstation",
-        "stock": 10
+        "name": "Playstation",
+        "stock": 10,
+        "imagen":"https://gmedia.playstation.com/is/image/SIEPDC/ps4-product-thumbnail-01-en-14sep21",
+        "descripcion":"Consola Sony de ultima generacion con definicion full HD y lectora BluRay",
+        "category":"Consola"
     },
     {
         "id": 2,
-        "name": "xbox",
-        "stock": 6
+        "name": "Xbox",
+        "stock": 6,
+        "imagen":"https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/10/louis-philippe-poitras-wmmh6btmtmo-unsplash-scaled.jpeg?fit=2560%2C1458&ssl=1",
+        "descripcion":"Consola Microsoft de ultima generacion, con disco de 825 gb y rapido procesamiento",
+        "category":"Consola"
     },
     {
         "id": 3,
-        "name": "sega",
-        "stock": 4
+        "name": "Sega",
+        "stock": 4,
+        "imagen":"https://m.media-amazon.com/images/I/715WGPMNscL._SL1500_.jpg",
+        "descripcion":"Consola clasica de los años 90",
+        "category":"Consola"
+    },
+    {
+        "id": 4,
+        "name": "Family",
+        "stock": 4,
+        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/family-21-0a46822f406b5f627e15892430252083-1024-1024.jpg",
+        "descripcion":"Consola clasica de los años 90",
+        "category":"Consola"
+    },
+    {
+        "id": 5,
+        "name": "God Of War",
+        "stock": 12,
+        "imagen":"https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/08/22/16295850624653.jpg",
+        "descripcion":"Sumergete en la fabulosa historia de Kratos y su lucha contra los dioses griegos",
+        "category":"Juego"
+    },
+    {
+        "id": 6,
+        "name": "Fifa",
+        "stock": 11,
+        "imagen":"https://gorilagames.com/img/Public/1019-producto-fifa-22-ps4-3071.jpg",
+        "descripcion":"Toda la pasion del futbol en un solo simulador, mas de 20 torneos licenciados y 1000 equipos",
+        "category":"Juego"
+    },
+    {
+        "id": 7,
+        "name": "Mortal Kombat",
+        "stock": 3,
+        "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWV5XIvTlaPr2-bA3yx8x1xytemDekCZClfmmNTX3dgS9_MtRqMK2SqcWQVobXDYfSmQ0&usqp=CAU",
+        "descripcion":"Lucha por la supervivencia, encadena golpes y aplasta a tus rivales en esta lucha mortal",
+        "category":"Juego"
+    },
+    {
+        "id": 8,
+        "name": "Caceria de patos",
+        "stock": 2,
+        "imagen":"https://i.blogs.es/e5fea0/dhunt1/1366_2000.jpg",
+        "descripcion":"Apunta y dispara, tienes que ser rapido o se te escaparan los patos",
+        "category":"Juego"
+    },
+    {
+        "id": 9,
+        "name": "Volante Logitech G29",
+        "stock": 3,
+        "imagen":"https://mexx-img-2019.s3.amazonaws.com/30260_1.jpeg",
+        "descripcion":"Ultimo modelo de Logitech para sentir y disfrutar tus carreras como si estuvieras realmente en el circuito",
+        "category":"Accesorio"
+    },
+    {
+        "id": 10,
+        "name": "Pistola laser",
+        "stock": 3,
+        "imagen":"http://http2.mlstatic.com/D_707725-MLA25627877102_052017-O.jpg",
+        "descripcion":"Pistola de alta definicion y sensitiva para consolas clasicas.",
+        "category":"Accesorio"
     }]
     }
     

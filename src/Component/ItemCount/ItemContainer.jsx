@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
 
-const ItemContainer = () => {
+const ItemContainer = ( props ) => {
     const [prods, setProds] = useState([]);
     // var datos = '';
     // fetch('https://api.mercadolibre.com/sites/MLA/search?q=playstation4&id=MLA1100250699').then(res => res.json())
@@ -32,10 +32,21 @@ const ItemContainer = () => {
         })()
     }, [])
 
+    
+    console.log(props);
+    const propiedad = props.prop;
+    let filtro = '';
+    if (propiedad === undefined) {
+        filtro = prods;
+    } else {
+        prods.map(p => console.log(p.category))
+        filtro = prods.filter(prod => prod.category === propiedad)
+        console.log(filtro);
+    }
     return (
         <>
         {/* <ItemList items={datos} /> */}
-        <ItemList items={prods} />
+        <ItemList items={filtro} />
         </>
       )
 }
