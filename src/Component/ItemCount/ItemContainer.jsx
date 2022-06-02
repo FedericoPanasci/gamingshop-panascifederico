@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ItemList from "./ItemList";
+import ItemList from './itemList';
 
 const ItemContainer = ( props ) => {
     const [prods, setProds] = useState([]);
@@ -15,7 +15,7 @@ const ItemContainer = ( props ) => {
 
     useEffect(() => {
         (async () => {
-            const promesa = new Promise((acc, rej) => {
+            const promesa = new Promise((acc) => {
                 const response = fetch('/prod.json');
                 setTimeout(() => {
                     acc(response);
