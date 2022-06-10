@@ -8,7 +8,7 @@ const ListContainer = () => {
             <li className='item-nav'><Link to="/Consolas">Consolas</Link></li>
             <li className='item-nav'><Link to="/Juegos">Juegos</Link></li>
             <li className='item-nav'><Link to="/Accesorios">Accesorios</Link></li>
-            <li className='item-nav'><Link to="/1">pAccesorios</Link></li>
+            <li className='item-nav'><Link to="/Carrito">Carrito</Link></li>
 
         </ul>
     )

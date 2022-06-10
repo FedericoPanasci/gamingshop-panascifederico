@@ -1,14 +1,14 @@
-import { createContext, useState } from "react";
+import React, { useState } from "react";
 
 const Provider = ({ children }) => {
-  const [state, setState] = useState(0);
-  const [cart, setCart] = useState({});
+  const [state, setState] = useState({prods :[]});
+  
   return (
-    <AppContext.Provider value={[state, setState]} cart={[cart, setCart]}>
+    <AppContext.Provider value={[state, setState]}>
       {children}
     </AppContext.Provider>
   );
 };
 
 export default Provider;
-export const AppContext = createContext();
+export const AppContext = React.createContext();

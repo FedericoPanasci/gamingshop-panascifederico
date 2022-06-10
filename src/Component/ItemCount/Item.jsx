@@ -1,9 +1,7 @@
-import React, { useContext } from 'react';
-import { AppContext } from '../../app/Provider';
+import React from 'react';
 import ItemCount from './ItemCount';
 
 const Item = ({id, prod}) => {
-    const [state, setState] = useContext(AppContext);
     return (
         <div id={id} className="contenedor">
             <h2 className="title" >{prod.name}</h2>

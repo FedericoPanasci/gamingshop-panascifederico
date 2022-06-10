@@ -10,7 +10,7 @@ const CartWidget = () => {
   return (
     <>
       <img className="logo" src={imgcart} alt="imagen de carrito" />
-      <p>{state}</p>
+      <p>{state.prods.length}</p>
     </>
   );
 };

@@ -4,7 +4,6 @@ import "../ItemCount/styles/styles.css";
 
 const ItemCount = ({ prod, stock }) => {
   const [cant, setCant] = useState(0);
-  const [cart, setCart] = useContext(AppContext);
   const [state, setState] = useContext(AppContext);
 
   useEffect(() => {
@@ -28,6 +27,8 @@ const ItemCount = ({ prod, stock }) => {
     }
   };
 
+  console.log(state.prods.length);
+
   return (
     <>
       <div>
@@ -45,13 +46,13 @@ const ItemCount = ({ prod, stock }) => {
         {cant === 0 ? (
           <button
             className="centrado"
-            onClick={(e) => {
+            onClick={() => {
               setCant(cant+1);
-              setState(state+1);
-              //quiero guardar el item en el context cart
-              setCart({...cart, name: prod.name})
+              // quiero guardar el item en el context cart
+              setState({...state, prods: [...state.prods, {name: prod.name, id: prod.id}]});
               console.log(prod);
-              console.log(cart.name);
+              console.log(cant);
+              // console.log(state.name);
             }}
           >
             Agregar al carrito
